@@ -1,0 +1,17 @@
+{
+  "name": "clase-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "bootstrap": "^5.0.2",
+    "purgecss": "^5.0.0"
+  },
+  "scripts": {
+    "build": "purgecss --css scss/custom.css--content index.html --output sass/reducido.css"
+  }
+}
